@@ -1,0 +1,3 @@
+1. String是不可变的，如果修改则会产生一个新的对象。StringBuffer和StringBuilder都是可变的。
+2. StringBuilder都是线程不安全的，StringBuffer是线程安全的。单线程的情况下，StringBuilder效率更高。
+3. StringBuffer和StringBuffer在1.7以前都是使用char数组，之后修改成了byte数组。 
